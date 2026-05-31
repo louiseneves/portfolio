@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfólio - Louise Neves</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<!-- Lightbox2 JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand logo" href="#">LN</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projeto">Projetos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+<section class="apre" id="home">
+  <div class="texto">
+    <p>Olá! Eu sou a <strong>Louise Neves</strong>.</p>
+    <p>Desenvolvedora Full Stack Júnior</p>
+    <p>Criando soluções web e mobile que resolvem problemas reais</p>
+    <a href="curriculo/Currículo Louise.pdf" download class="btn-cv">
+      <i class="fas fa-download"></i> Download CV
+    </a>
+  </div>
+  <div class="foto-container">
+    <img src="imagens/foto Louise.jpeg" alt="Foto da Louise" />
+  </div>
+</section>
+
+<section class="sobre" id="sobre">
+    <div class="container_sobre">
+        <h1>Sobre mim</h1>
+        
+        <p>
+            Desenvolvedora Full Stack Júnior com foco em criar soluções práticas e funcionais.
+        </p>
+        
+        <p>
+            Minha trajetória combina formação técnica (Engenharia de Software + Pós em Full Stack) 
+            com experiência profissional em sistemas e atendimento ao usuário. Essa combinação me 
+            permite desenvolver aplicações pensando não apenas no código, mas nas pessoas que vão usar.
+        </p>
+        
+        <p>Tenho projetos deployados que demonstram:</p>
+        
+        <ul class="lista-diferenciais">
+            <li>Capacidade de criar conceitos únicos (OdeioFit)</li>
+            <li>Visão de produto (app com modelo freemium)</li>
+            <li>Código organizado e documentado</li>
+            <li>Foco em resolver problemas reais</li>
+        </ul>
+        
+        <p>
+            Atualmente desenvolvendo um app mobile de controle financeiro com diferencial 
+            para público cristão.
+        </p>
+        
+        <p>
+            <strong>Aberta a oportunidades como Desenvolvedora Júnior.</strong>
+        </p>
+    </div>
+</section>
+
+<section class="habilidades" id="habilidades">
+    <h1>Habilidades</h1>
+    
+    <div class="habilidades-grid">
+        
+        <!-- FRONT-END WEB -->
+        <div class="categoria-skill">
+            <h3>Front-end Web</h3>
+            <div class="skills-lista">
+                <span class="skill-item">HTML5</span>
+                <span class="skill-item">CSS3</span>
+                <span class="skill-item">JavaScript</span>
+                <span class="skill-item">Bootstrap</span>
+            </div>
+        </div>
+
+        <!-- BACK-END WEB -->
+        <div class="categoria-skill">
+            <h3>Back-end Web</h3>
+            <div class="skills-lista">
+                <span class="skill-item">PHP</span>
+                <span class="skill-item">MySQL</span>
+            </div>
+        </div>
+
+        <!-- MOBILE -->
+        <div class="categoria-skill">
+            <h3>Mobile</h3>
+            <div class="skills-lista">
+                <span class="skill-item">React Native</span>
+                <span class="skill-item">Firebase</span>
+            </div>
+        </div>
+
+        <!-- DESKTOP -->
+        <div class="categoria-skill">
+            <h3>Desktop</h3>
+            <div class="skills-lista">
+                <span class="skill-item">Java</span>
+            </div>
+        </div>
+
+        <!-- FERRAMENTAS -->
+        <div class="categoria-skill">
+            <h3>Ferramentas</h3>
+            <div class="skills-lista">
+                <span class="skill-item">Git/GitHub</span>
+                <span class="skill-item">VS Code</span>
+                <span class="skill-item">Figma</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="projeto">
+    <h1>Projetos</h1>
+
+    <div class="projetos-grid">
+        
+        <!-- PROJETO 1 - ODEIOFIT -->
+        <div class="projeto-card">
+            <a href="https://odeiofit.netlify.app/" target="_blank">
+                <img src="imagens/odeiofit-screenshot.png" alt="OdeioFit">
+            </a>
+            <h5>OdeioFit</h5>
+            <p>
+                Site para incentivar pessoas que odeiam exercícios a se moverem de forma leve e com humor. 
+                "Todo mundo OdeiaFit, mas bora tentar?" - Conceito criativo único com design responsivo.
+            </p>
+            <div class="tecnologias">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+            <div class="projeto-btns">
+                <a href="https://odeiofit.netlify.app/" target="_blank" class="btn-ver"><i class="fas fa-globe"></i> Ver Projeto</a>
+                <a href="https://github.com/louiseneves/odeiofit" target="_blank" class="btn-codigo"><i class="fab fa-github"></i> Ver Código</a>
+            </div>
+        </div>
+
+        <!-- PROJETO 2 - CALCULADORA IMC -->
+        <div class="projeto-card">
+            <a href="https://imcexpress.netlify.app/" target="_blank">
+                <img src="imagens/imc-calculadora.jpg" alt="Calculadora de IMC">
+            </a>
+            <h5>Calculadora de IMC</h5>
+            <p>
+                Aplicação web para calcular Índice de Massa Corporal de forma rápida e intuitiva. 
+                Interface responsiva com feedback visual claro sobre o resultado.
+            </p>
+            <div class="tecnologias">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+            <div class="projeto-btns">
+                <a href="https://imcexpress.netlify.app/" target="_blank" class="btn-ver"><i class="fas fa-globe"></i> Ver Projeto</a>
+                <a href="https://github.com/louiseneves/Calculadora-de-IMC" target="_blank" class="btn-codigo"><i class="fab fa-github"></i> Ver Código</a>
+            </div>
+        </div>
+
+        <!-- PROJETO 3 - APP CONTROLE FINANCEIRO -->
+        <div class="projeto-card">
+            <a href="https://github.com/louiseneves/controle-financeiro" target="_blank">
+                <img src="imagens/app-financeiro.jpg" alt="App Controle Financeiro">
+            </a>
+            <h5>App Controle Financeiro + Dízimo</h5>
+            <span class="badge-dev">🚧 Em Desenvolvimento</span>
+            <p>
+                App mobile React Native com modelo freemium para gestão financeira integrada com 
+                contribuições religiosas. Diferencial: foco em público cristão que deseja organizar 
+                finanças e dízimo em um único lugar.
+            </p>
+            <div class="tecnologias">
+                <span>React Native</span>
+                <span>JavaScript</span>
+                <span>Firebase</span>
+            </div>
+            <div class="projeto-btns">
+                <a href="https://github.com/louiseneves/controle-financeiro" target="_blank" class="btn-codigo"><i class="fab fa-github"></i> Ver Código</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="contato">
+  <div class="container_contato">
+    <h1>Contato</h1>
+    <div class="form_contato">
+     <form action="https://formsubmit.co/louiseneves87@gmail.com" method="POST">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" />
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu email" />
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" rows="8" cols="40" placeholder="Digite sua mensagem..."></textarea>
+        <input type="hidden" name="_next" value="obrigado.html">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="submit" name="submit" id="submit" value="Enviar" />
+      </form>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="info-contato">
+    <ul class="footer-icons">
+      <li><a href="tel:+5527999493839"><i class="fas fa-phone"></i> (27) 99949-3839</a></li>
+      <li><a href="mailto:louiseneves87@gmail.com"><i class="fas fa-envelope"></i> louiseneves87@gmail.com</a></li>
+      <li><a href="https://github.com/louiseneves" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+      <li><a href="https://linkedin.com/in/louiseneves87" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+    </ul>
+  </div>
+  <p class="footer-text">© 2025 Louise Neves. Todos os direitos reservados.</p>
+  <p class="footer-dev">Desenvolvido por Louise Neves</p>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</footer>
+</body>
+</html>
