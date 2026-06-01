@@ -8,4 +8,27 @@
     .nav-mobile {
         display: block;
     }
+    .nav-mobile .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .nav-mobile .nav-links a {
+        font-size: 16px;
+    }
+    .sobre .container {
+        padding: 0 20px;
+    }
+    .sobre-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sobre-img {
+        width: 200px;
+        height: 200px;
+    }
+    .sobre-text {
+        text-align: center;
+    }
 }
