@@ -36,4 +36,11 @@
     justify-content: center;
     gap: 20px;
   }
+  .projetos .projetos-cards {
+  max-width: 350px;
+}
+
+.contato .contato-form input,textarea{
+  max-width: 350px;
+}
 }

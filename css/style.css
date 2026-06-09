@@ -409,6 +409,95 @@ body {
   font-weight: 500;
 }
 
+/* Contato */
+.contato {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.contato .container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contato .contato-content {
+  display: flex;
+  margin-top: 108px;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.contato .contato-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contato .contato-form label {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.contato .contato-form input {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 8px;
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+.contato .contato-form input::placeholder {
+  color: #bcbcbc;
+  font-size: 16px;
+}
+
+/* .contato .contato-form input:focus{
+  outline-color: #ccc;
+} */
+
+.contato .contato-form textarea {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 8px;
+  width: 500px;
+  margin-bottom: 10px;
+  resize: none;
+}
+
+.contato .contato-form textarea::placeholder {
+  color: #bcbcbc;
+  font-size: 16px;
+}
+
+.contato .contato-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.contato .contato-button button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: #C95B9D;
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+    transition: all 2s ease-in;
+}
+
+.contato .contato-button button:hover{
+  background-color: rgb(202, 81, 154);
+
+}
+
 /* Utilidades */
 .section-titulo {
   color: #fff;
