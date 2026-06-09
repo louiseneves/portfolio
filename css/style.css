@@ -322,7 +322,8 @@ body {
 
 .projetos .projetos-cards img {
   width: 100%;
-  height: 200px;
+  height: 250px;
+  object-fit: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -350,7 +351,6 @@ body {
 .projetos .projetos-cards .projetos-lista .projetos-item {
   background-color: #d85fa8;
   border-radius: 16px;
-
   min-width: 70px;
   width: fit-content;
   padding: 12px 20px;
@@ -485,17 +485,52 @@ body {
   height: 50px;
   border: none;
   border-radius: 10px;
-  background-color: #C95B9D;
+  background-color: #c95b9d;
   color: white;
   font-size: 24px;
   font-weight: 500;
   cursor: pointer;
-    transition: all 2s ease-in;
+  transition: background-color 0.2s ease-in;
 }
 
-.contato .contato-button button:hover{
-  background-color: rgb(202, 81, 154);
+.contato .contato-button button:hover {
+  background-color: #d85fa8;
+}
 
+/* Footer */
+.footer {
+  background-color: #d85fa8;
+  padding: 15px 20px;
+}
+
+.footer .container {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .icons {
+  display: flex;
+  gap: 15px;
+}
+
+.footer .icons i {
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.footer .icons i:hover {
+  transform: scale(1.2);
+}
+
+.footer .footer-text {
+  color: white;
+  text-align: center;
 }
 
 /* Utilidades */
