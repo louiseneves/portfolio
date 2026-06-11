@@ -321,7 +321,7 @@
         <!-- section-titulo -->
         <div class="contato-content">
           <div class="contato-container">
-            <form action="">
+            <form class="form" method="POST">
               <div class="contato-form">
                 <label for="name">Nome</label>
                 <input
@@ -349,7 +349,7 @@
                 ></textarea>
               </div>
               <div class="contato-button">
-                <button>Enviar</button>
+                <button class="btn-contato">Enviar</button>
               </div>
             </form>
           </div>
@@ -365,16 +365,24 @@
     <footer class="footer">
       <div class="container">
         <div class="icons">
-          <i class="fa fa-whatsapp"></i>
-          <i class="fa fa-envelope"></i>
-          <i class="fa fa-linkedin"></i>
-          <i class="fa fa-github"></i>
+          <a href="https://wa.me/5527999493839" target="_blank">
+            <i class="fa fa-whatsapp"></i>
+          </a>
+          <a href="mailto:louiseneves87@gmail.com" target="_blank">
+            <i class="fa fa-envelope"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/louiseneves87" target="_blank">
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/louiseneves" target="_blank">
+            <i class="fa fa-github"></i>
+          </a>
         </div>
         <!-- icons -->
-      <div class="footer-text">
-        <p>&copy;2026 Louise Neves. Todos os direitos reservados.</p>
-      </div>
-      <!-- footer-text -->
+        <div class="footer-text">
+          <p>&copy;2026 Louise Neves. Todos os direitos reservados.</p>
+        </div>
+        <!-- footer-text -->
       </div>
       <!-- container -->
     </footer>
@@ -384,5 +392,6 @@
       src="https://kit.fontawesome.com/64c1aa5bcd.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
